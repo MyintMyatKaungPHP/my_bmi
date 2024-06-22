@@ -1,0 +1,24 @@
+name: my_bmi
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_theme_switcher: "^2.0.8"
+  vertical_weight_slider : "^2.6.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: fonts/RobotoSlab-Regular.ttf
